@@ -1,0 +1,221 @@
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    color: #141F45;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    width: 85%;
+    text-align: center;
+    padding: 50px 100px 0px 100px;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: white;
+    
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    
+}
+
+.logo {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 280px;
+    text-align: right;
+    margin: 0px;
+}
+
+li {
+    padding: 5px;
+    padding-left: 60px;
+    vertical-align: top;
+}
+
+.link-menu, a:visited, a:active, a:link, a:hover {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+main {
+    background: #fff09c url('../img/home1-arroz.jpg') no-repeat center center;
+    background-size: cover;
+    height: 430px;
+    margin-top: 100px;
+}
+
+.principal {
+    padding: 50px;
+    line-height: 5px;
+}
+
+h1 {
+    font-style: inherit;
+    font-size: 42px;
+    padding-bottom: 35px;
+}
+
+.contato {
+    margin: 0px;
+}
+
+.button {
+    display: inline-block;
+    border: 2px #141F45 solid;
+    padding: 20px 15px 5px 15px;;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 130px;
+    height: 25px;
+    margin: 5px;
+    margin-right: 10px;
+    text-align: center;
+    color: #141F45;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+#a-cozinharia, #eventos {
+    display: flex;
+    margin-top: 50px;
+}
+
+.left {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.right {
+    display: inline-block;
+    width: 49%;
+}
+
+h2 {
+    font-size: 36px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.dash-yellow {
+    border: 2px #eed33e solid;
+    margin-bottom: 24px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.texto-cozinharia {
+    width: 90%;
+    margin-left: 50px;
+}
+
+.button-yellow {
+    display: inline-block;
+    border: 2px #F0DB48 solid;
+    background-color: #F0DB48;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 130px;
+    height: 20px;
+    margin: 5px 10px 5px 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: #141F45;
+    font-weight: 600;
+}
+
+#a-cozinharia1 {
+    width: 100%;;
+    margin: 10px;
+}
+
+#nosso-cardapio {
+    background-color: #F0DB48;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#cardapio {
+    margin: 25px;
+    padding-top: 100px;
+}
+
+.dash-black {
+    border: 2px black solid;
+    margin-bottom: 24px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-cardapio {
+    display: inline-block;
+    border: 2px #141F45 solid;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 220px;
+    height: 25px;
+    margin: 5px;
+    margin-right: 10px;
+    text-align: center;
+    color: #141F45;
+    font-weight: 600;
+    margin-top: 25px;
+    position: relative;
+}
+
+#casamento-1 {
+    width: 100%;;
+    margin: 10px;
+}
+
+footer {
+    background-color: #F0DB48;
+    margin: 0px #f0db48 solid;
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    line-height: 5px;
+}
+
+#facebook, #twitter, #linkedin {
+    width: 50px;
+    padding-left: 10px;
+}
+
+.contato, .funcionamento, .social {
+    display: inline-block;
+    padding: 50px;
+    width: 30%;
+    margin: 0px;
+    vertical-align: top;
+
+}
+
+.social {
+    text-align: right;
+}
+
+.funcionamento {
+    width: 33%;
+}

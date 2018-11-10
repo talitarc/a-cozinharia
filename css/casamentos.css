@@ -1,0 +1,15 @@
+#casamentos {
+    padding: 100px 88px 50px 50px;
+    width: 89%;
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+
+#texto-casamento {
+    padding: 30px 88px 50px 50px;
+}
+
+.casamentos {
+    padding-left: 50px;
+    display: flex;
+}

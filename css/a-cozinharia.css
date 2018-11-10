@@ -1,0 +1,52 @@
+#a-cozinharia, #galeria {
+    padding: 100px 50px 50px 50px;
+}
+
+#a-cozinharia {
+    background-color: #F8f8f8;
+}
+
+.left {
+    padding: 20px;
+    text-align: left;
+    line-height: 25px;
+    width: 40%;
+}
+
+.a-cozinharia-right {
+    width: 40%;
+    padding: 170px 65px 40px 65px;
+}
+
+h2, .dash-yellow {
+    margin-left: 0px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+#ambiente, #horario, #playground, #horta {
+    padding: 10px;
+}
+
+#mesa-posta, #tomate-cereja {
+    width: 580px;
+}
+
+#galeria {
+    padding-top: 10px;
+}
+
+#titulo-galeria {
+    font-size: 27px;
+}
+
+.galeria-cozinharia {
+    display: flex;
+    width: 100%;
+}
+
+#legumes {
+    width: 860px;
+}
