@@ -1,0 +1,50 @@
+#contato {
+    padding: 100px 88px 50px 50px;;
+    width: 89%;
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+
+.info {
+    display: flex;
+}
+
+.contato-page, .funcionamento-page {
+    line-height: 8px;
+    padding: 10px 50px 20px 50px;
+    font-size: 14px;
+}
+
+.contato-page {
+    padding-right: 300px;
+}
+
+#contato-map {
+    display: flex;
+}
+
+iframe {
+    padding: 50px;
+}
+
+.form {
+    padding: 20px;
+}
+
+input {
+    width: 80%;
+    display: block;
+    padding: 5px;
+}
+
+label {
+    line-height: 32px;
+}
+
+label.select {
+    padding: 12px;
+}
+
+.botao-enviar {
+    width: 120px;
+}
